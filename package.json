@@ -1,21 +1,28 @@
 {
     "name": "eslint-formatter-stdout",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Because wtf would you have --stdin and not --stdout…",
     "repository": "corneliusio/eslint-formatter-stdout",
-    "module": "src/index.js",
+    "module": "./src/index.js",
+    "main": "./src/index.js",
     "type": "module",
+    "exports": {
+        "default": "./src/index.js"
+    },
+    "sideEffects": false,
     "license": "MIT",
     "author": {
-      "name": "Cornelius Ukena",
-      "email": "guy@cornelius.dev"
+        "name": "Cornelius Ukena",
+        "email": "guy@cornelius.dev"
     },
     "keywords": [
-      "eslint",
-      "formatter",
-      "stdout"
+        "eslint",
+        "formatter",
+        "eslint-formatter",
+        "eslintformatter",
+        "stdout"
     ],
     "bugs": {
-      "url": "https://github.com/corneliusio/eslint-formatter-stdout/issues"
+        "url": "https://github.com/corneliusio/eslint-formatter-stdout/issues"
     }
 }

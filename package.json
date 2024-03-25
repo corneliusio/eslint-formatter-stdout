@@ -1,0 +1,21 @@
+{
+    "name": "eslint-formatter-stdout",
+    "version": "0.0.1",
+    "description": "Because wtf would you have --stdin and not --stdout…",
+    "repository": "corneliusio/eslint-formatter-stdout",
+    "module": "src/index.js",
+    "type": "module",
+    "license": "MIT",
+    "author": {
+      "name": "Cornelius Ukena",
+      "email": "guy@cornelius.dev"
+    },
+    "keywords": [
+      "eslint",
+      "formatter",
+      "stdout"
+    ],
+    "bugs": {
+      "url": "https://github.com/corneliusio/eslint-formatter-stdout/issues"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "name": "eslint-formatter-stdout",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Because wtf would you have --stdin and not --stdout…",
     "repository": "corneliusio/eslint-formatter-stdout",
     "module": "./src/index.js",

@@ -1,13 +1,14 @@
 {
     "name": "eslint-formatter-stdout",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Because wtf would you have --stdin and not --stdout…",
     "repository": "corneliusio/eslint-formatter-stdout",
-    "module": "./src/index.js",
+    "module": "./src/index.mjs",
     "main": "./src/index.cjs",
     "type": "module",
     "exports": {
-        "default": "./src/index.js"
+        "import": "./src/index.mjs",
+        "require": "./src/index.cjs"
     },
     "sideEffects": false,
     "license": "MIT",

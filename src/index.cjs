@@ -1,6 +1,6 @@
-import fs from 'fs'
+const fs = require('fs')
 
-export default results => {
+module.exports = results => {
     return results.map(result => {
         if (result.output) {
             return result.output.trim()
